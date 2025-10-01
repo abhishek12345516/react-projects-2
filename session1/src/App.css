@@ -1,1 +1,15 @@
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
 
+body.dark-mode {
+  background-color: #042743;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+body.light-mode {
+  background-color: white;
+  color: #042743;
+  transition: background-color 0.5s ease;
+}
